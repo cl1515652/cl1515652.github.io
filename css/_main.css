@@ -1,0 +1,31 @@
+.head_bg{
+	background-image: url(../img/b_g.jpg);
+	width: auto;
+	height: 600px;
+}
+.head_center{
+	width: auto;
+	top: -600px;
+}
+
+.head_title{
+	margin-left: 30px;
+	margin-top: 20px;;
+}
+
+.height_90{
+	height: 90px;
+}
+
+.font_size_big{
+	font-size: 40px;
+}
+
+.font_color_black{
+	color:black;
+}
+
+._relative{
+	position: relative;
+}
+

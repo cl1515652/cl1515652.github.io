@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title></title>
+		<meta charset="UTF-8" />
+		<meta name="keywords" content="java 开发 服务 javascript jquery 全栈"  />
+		<meta name="description" content="java 开发 服务 javascript jquery 全栈">
+    	<meta name="author" content="cl_bb_1992@163.com">
+		<link rel="shortcut icon" type="image/x-icon" href="img/icon/icon.jpg" media="screen" /> 
+		<title>主页</title>
+		<!--引入CSS-->
+		<!-- Bootstrap core CSS -->
+    	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    	<!-- Custom styles for this template -->
+    	<link href="css/_main.css" rel="stylesheet">
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
 	</head>
 	<body>
-		hello!</br>
-		小强 6不6</br>
-		我就问你6不6</br>
+		<!-- _body_div -->
+		<div id="_body">
+			
+			<!-- head -->
+			<div id="_head">
+				<div id="head_bg" class=" head_bg _relative">
+				</div>
+				<div id="head_center" class="head_center _relative">
+					<!-- head_mune -->
+					<div id="_mune" >
+					<nav id="_mune_nav" class="navbar navbar-fixed-top">
+					  <div class="container-fluid height_90">
+					    <div class="navbar-header">
+					      <a class="navbar-brand head_title" id="head_title" href="#">
+					        <font class="font_size_big">DEV_CL</font>
+					      </a>
+					    </div>
+					    <div class="navbar-rigth">
+					      
+					    </div>
+					  </div>
+					</nav>
+				</div>
+			</div>
+			
+				
+			</div>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			<div style="height: 1000px">
+			
+			</div>
+		</div>
+		
+		
+		
+		
+		<!--引入javascript-->
+	    <script src="js/jquery-3.0.0.js"></script>
+	    <script src="js/jquery.foggy.js"></script>
+	    <script src="js/jquery.color-2.1.2.min.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#head_bg").foggy({
+				   blurRadius: 5,          // 像素.
+				   opacity: 0.8,           // 不透明度
+				   cssFilterSupport: true  // 使用“-webkit的过滤器”
+				 });
+				
+				$(document).scroll(function() {
+					//console.log($(document).scrollTop());
+					if($(document).scrollTop() >= 600){
+				 		$("#_mune_nav").animate({"background-color": '#222'},30);
+					}
+					if($(document).scrollTop() < 550){
+				 		$("#_mune_nav").animate({"background-color": 'transparent'},30);
+					}
+				});
+				
+			})
+			
+			
+		</script>
 	</body>
 </html>

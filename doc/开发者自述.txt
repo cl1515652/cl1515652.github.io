@@ -1,0 +1,17 @@
+网站开发
+1. 网站头 毛玻璃效果
+	使用jquery插件 jquery.foggy.js
+	使用DIV重叠 
+2. 导航栏 菜单
+	DEV_CL					人生点滴		掌握技术		个人作品		关于_CL		感谢
+	当滚到到600+ 是显示黑色的北京
+	获取览器显示区域的高度 ： $(window).height(); 
+	获取浏览器显示区域的宽度 ：$(window).width();
+	获取页面的文档高度 ：$(document).height();
+	获取页面的文档宽度 ：$(document).width();
+	获取滚动条到顶部的垂直高度 ：$(document).scrollTop();
+	获取滚动条到左边的垂直宽度 ：$(document).scrollLeft();
+	颜色渐变效果
+	jquery.color-2.1.2.min.js
+	transparent 透明值
+3.
